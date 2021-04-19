@@ -213,14 +213,13 @@ section {
 
 .panel.active .btn-a {
 	opacity: 1;
-	transition: opacity 3s ease;
+	transition: opacity 0.6s ease-in 0.3s;
 }
 
 .panel .btn-a {
 	text-decoration: none;
 	color: var(--nav-color);
 	opacity: 0;
-	transition: opacity 0.3s ease;
 }
 
 .panel .btn {
@@ -233,11 +232,10 @@ section {
 	text-align: center;
 	border-radius: 6px;
 	opacity: 0;
-	transition: opacity 0.3s ease;
 }
 .panel.active .btn {
 	opacity: 1;
-	transition: opacity 3s ease;
+	transition: opacity 0.6s ease-in 0.3s;
 }
 
 .panel.active .btn:hover {
@@ -403,7 +401,7 @@ footer p:nth-child(2) {
 
 @media (max-height: 600px) {
 	section {
-		height: 55vh;
+		height: 50vh;
 	}
 
 	.text-container {
