@@ -399,7 +399,7 @@ footer p:nth-child(2) {
 	}
 }
 
-@media (max-height: 600px) {
+@media (max-width: 600px) {
 	section {
 		height: 50vh;
 	}
