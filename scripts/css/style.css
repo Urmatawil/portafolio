@@ -421,4 +421,9 @@ footer p:nth-child(2) {
 		width: 60px;
 		text-align: center;
 	}
+
+	.panel .btn-a {
+		font-size: 12px;
+		text-align: center;
+	}
 }
