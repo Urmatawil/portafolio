@@ -414,8 +414,8 @@ footer p:nth-child(2) {
 
 	.panel .btn {
 		position: relative;
-		bottom: -75%;
-		right: -70%;
+		bottom: -70%;
+		right: -38%;
 		width: 60px;
 		text-align: center;
 	}
