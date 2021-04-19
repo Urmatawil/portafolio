@@ -213,7 +213,7 @@ section {
 
 .panel.active .btn-a {
 	opacity: 1;
-	transition: opacity 2s ease;
+	transition: opacity 3s ease;
 }
 
 .panel .btn-a {
@@ -237,7 +237,7 @@ section {
 }
 .panel.active .btn {
 	opacity: 1;
-	transition: opacity 2s ease;
+	transition: opacity 3s ease;
 }
 
 .panel.active .btn:hover {
