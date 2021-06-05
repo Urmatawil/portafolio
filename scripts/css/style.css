@@ -83,6 +83,7 @@ section {
 
 .text-center {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
@@ -125,6 +126,10 @@ section {
 .negrita {
 	color: rgb(255, 231, 153);
 	text-shadow: 0 0 4px var(--nav-color);
+}
+
+.btn-cv {
+	display: none;
 }
 
 .about-container {
@@ -333,6 +338,32 @@ footer p:nth-child(2) {
 
 	section .ul-message-small {
 		display: block;
+	}
+
+	.btn-cv {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		width: 120px;
+		height: 30px;
+		border-radius: 8px;
+		background-color: var(--line-button);
+		padding: 2px 2px;
+		box-shadow: 0 0 8px 0 var(--background-color);
+		
+	}
+	
+	.btn-c {
+		font-family: Courier;
+		font-weight: bold;
+		color: var(--line-font);
+		font-size: 14px;
+		
+	}
+
+	.btn-cv a {
+		text-decoration: none;
 	}
 }
 
