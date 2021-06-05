@@ -24,6 +24,10 @@ ul {
 	list-style: none;
 }
 
+section .ul-message-small {
+	display: none;
+}
+
 a {
 	text-decoration: none;
 }
@@ -323,8 +327,12 @@ footer p:nth-child(2) {
 	* {
 		box-sizing: border-box;
 	}
-	section ul {
+	section .ul-message {
 		display: none;
+	}
+
+	section .ul-message-small {
+		display: block;
 	}
 }
 
